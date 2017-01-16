@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache
+Software Foundation//DTD Tiles Configuration 2.1//EN"
+        "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <!--<definition name="layout" template="/jsp/layout.jsp">-->
+        <!--<put-attribute name="header" value="/jsp/tile/headernews.jsp" />-->
+        <!--<put-attribute name="nav" value="/jsp/tile/navnews.jsp"/>-->
+        <!--<put-attribute name="footer" value="/jsp/tile/footer.jsp"/>-->
+    <!--</definition>-->
+
+    <definition name="depositLayout" template="/jsp/layouts/depositLayout.jsp">
+        <put-attribute name="header" value="/jsp/tiles/depositHeader.jsp" />
+        <put-attribute name="nav" value="/jsp/tiles/nav.jsp" />
+        <put-attribute name="footer" value="/jsp/tiles/footer.jsp"/>
+    </definition>
+
+</tiles-definitions>
